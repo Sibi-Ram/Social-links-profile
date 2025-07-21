@@ -8,10 +8,99 @@
 
 body{
 
-background-color:hsl(0, 0%, 8%);
+background-color:#141414;
+font-family:  "Inter", sans-serif;
+height: 100vh;
+
+display: grid;
+grid-template-columns: 1.5em 1fr 1.5em;
+grid-template-areas: 
+
+  "... ... ..."
+  "... main ..."
+  "... ... ..."
+
+;
+gap: 5em 0;
 }
 
 .dp-img{
   border-radius: 50%;
+  width: 88px;
+  height: 88px;
 }
 
+main{
+  grid-area: main;
+  display: grid;
+}
+.container{
+ 
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+  background-color: #1F1F1F;
+  
+  padding: 1.5em;
+  
+}
+
+.name-place{
+  text-align: center;
+}
+h1{
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+h2{
+  color: #C4F82A;
+  font-size: 0.875em;
+  font-weight: 700;
+}
+
+p{
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #FFFFFF;
+
+}
+.btn{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  background-color: #333333;
+  text-align: center;
+  width: 100%;
+  padding: 0.75em;
+  display: inline-block;
+  margin: 0em 1.5em;
+  
+    
+  
+
+  
+
+
+}
+
+.btn:hover{
+  background-color: #C4F82A;
+  color: #333333;
+  
+}
+
+.btn:active{
+  background-color: #C4F82A;
+  color: #333333;
+
+}
+.social-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  
+}
