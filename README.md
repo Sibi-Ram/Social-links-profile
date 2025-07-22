@@ -38,34 +38,39 @@
 
 ### What I learned
 
-Initailly in css I used
+In order to change the hand (pointer) cursor colour I used the custom cursor image(svg or png)
 ```css
-display: flex;
-align-items: center;
+button:hover {
+  cursor: url('black-hand-cursor.png'), pointer;
+}
 ```
-on the ```<main>``` element, but the box was not vertically centered.
 
-After googling I found out the reason.
-The reason: I did not set a height on the flex parent (main), so there was no extra vertical space for centering. ___By default, block elements stretch to 100% width but only as much height as their content.___
-
-corrected code:
-
-Set a height (e.g., height: 100vh;) on the flex parent (```<main>```).
-
+To center items within a CSS Grid, I used the 
+```css 
+place-items: center;
+``` 
+property on the grid container. This property is a shorthand for
 ```css
-height: 100vh;
 align-items: center;
+justify-items: center;
 ```
-will vertically center the child inside the parent.
+which will center items both vertically and horizontally within their grid cells. 
+
+
+***used min-width for media query ensuring mobile first layout approach and used the relative units like em***
+
+
 
 **Key Learning:**
 
-___For vertical centering with flexbox, the container must have a defined height.___
+_To change the hand (pointer) cursor colour I used the custom cursor image(svg or png)_
+
+_For vertical centering with flexbox, the container must have a defined height._
 
 
 ## Author
 
-- Twitter - [SRtheDev](https://www.twitter.com/SRtheDev)
+- Twitter - [SR-theDev](https://www.twitter.com/SRtheDev)
 - Frontend Mentor - [Sibi-Ram](https://www.frontendmentor.io/profile/Sibi-Ram)
 
 
