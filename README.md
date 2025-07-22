@@ -18,9 +18,6 @@
 #### Desktop view:
 ![Desktop view](./screenshots/desktop-view.jpg)
 
-#### Modile view:
-![Mobile view](./screenshots/mobile-view.jpg)
-
 #### Active State:
 ![Active/Hover state](./screenshots/active-states.jpg)
 
