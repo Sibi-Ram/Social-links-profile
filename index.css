@@ -50,6 +50,7 @@ h2{
   color: #C4F82A;
   font-size: 0.875rem;
   font-weight: 700;
+  margin-top: 0.25em;
   
 }
 
@@ -99,7 +100,7 @@ p{
 
   .container{
     padding: 2.5em;
-    max-width: 30.375em;
+   
     
   }
 }
