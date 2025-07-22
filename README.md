@@ -21,7 +21,7 @@
 #### Modile view:
 ![Mobile view](./screenshots/mobile-view.jpg)
 
-#### Active Sate:
+#### Active State:
 ![Active/Hover state](./screenshots/active-states.jpg)
 
 #### Modile view:
