@@ -21,6 +21,11 @@
 #### Modile view:
 ![Mobile view](./screenshots/mobile-view.jpg)
 
+#### Active Sate:
+![Active/Hover state](./screenshots/active-states.jpg)
+
+#### Modile view:
+![Mobile view](./screenshots/mobile-view.jpg)
 ### Links
 
 - Source Code: [view on GitHub](https://github.com/Sibi-Ram/Social-links-profile)
