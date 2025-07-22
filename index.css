@@ -85,7 +85,7 @@ p{
 .btn:hover{
   background-color: #C4F82A;
   color: #333333;
-  cursor: url(./images/handcursor.svg) , pointer;
+  cursor: url(./images/handcursor.svg), pointer;
 
   
 }
@@ -94,7 +94,7 @@ p{
   background-color: #C4F82A;
   color: #333333;
   
-  cursor: url(./images/handcursor.svg) , pointer;
+  cursor: url(./images/handcursor.svg), pointer;
 }
 
 
