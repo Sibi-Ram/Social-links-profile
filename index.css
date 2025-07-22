@@ -2,13 +2,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
+  
   padding: 0;
 }
 
 
 body{
-
+margin: 0;
 background-color:#141414;
 font-family:  "Inter", sans-serif;
 height: 100vh;
@@ -50,7 +50,7 @@ h2{
   color: #C4F82A;
   font-size: 0.875rem;
   font-weight: 700;
-  margin-top: 0.25em;
+  
 }
 
 p{
@@ -99,6 +99,7 @@ p{
 
   .container{
     padding: 2.5em;
+    max-width: 30.375em;
     
   }
 }
