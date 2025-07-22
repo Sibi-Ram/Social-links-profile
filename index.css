@@ -83,6 +83,7 @@ p{
 .btn{
   text-decoration: none;
   color: #FFFFFF;
+  font-size: 0.875rem;
   font-weight: 700;
   background-color: #333333;
   text-align: center;
@@ -94,23 +95,20 @@ p{
 .btn:hover{
   background-color: #C4F82A;
   color: #333333;
-  cursor: pointer;
+  cursor: url(./images/handcursor.svg) , pointer;
+
   
 }
 
 .btn:active{
   background-color: #C4F82A;
   color: #333333;
-  cursor: pointer;
-
+  
+  cursor: url(./images/handcursor.svg) , pointer;
 }
 
 
 @media(min-width:600px){
-
-  body{
-    /* grid-template-columns: 0.5fr 1fr 0.5fr; */
-  }
 
   .container{
     padding: 2.5em;
